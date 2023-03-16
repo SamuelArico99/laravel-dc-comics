@@ -19,4 +19,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/comics', [ComicController::class, 'index']);
+Route::resource('/comics', ComicController::class);
