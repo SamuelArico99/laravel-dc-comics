@@ -14,6 +14,10 @@ class ComicsTableSeeder extends Seeder
      */
     public function run()
     {
-        //
+        $comics = config('comics');
+
+        foreach ($comics as $index => $comic) {
+            dd($comic);
+        }
     }
 }
