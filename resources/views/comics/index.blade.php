@@ -21,6 +21,12 @@
                                     <a href="{{ route('comics.show', $comic->id) }}" class="btn btn-primary">
                                         Vedi Descrizione
                                     </a>
+                                    <a href="{{ route('comics.edit', $comic->id) }}" class="btn btn-warning">
+                                        Aggiorna
+                                    </a>
+                                    <a href="#" class="btn btn-danger">
+                                        Elimina
+                                    </a>
                                 </div>
                             </div>
                         </div>
