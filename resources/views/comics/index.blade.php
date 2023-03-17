@@ -5,6 +5,9 @@
                 <div class="row">
                     <div class="col text-center">
                         <h1 class="card-title">FUMETTI</h1>
+                        <a href="{{ route('comics.create') }}" class="btn btn-success my-3">
+                            Crea un prodotto
+                        </a>
                     </div>
                 </div>
                 <div class="row">
